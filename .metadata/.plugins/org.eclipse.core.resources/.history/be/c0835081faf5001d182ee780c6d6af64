@@ -21,7 +21,7 @@ public class Program {
             Integer numberProducts = sc.nextInt();
 
             for (int i = 1; i <= numberProducts; i++) {
-                System.out.println("novo, usado ou importado (n/u/i)? ");
+                System.out.println("comum, usado ou importado (c/u/i)? ");
 
                 char tipo = sc.next().charAt(0);
 
@@ -32,7 +32,7 @@ public class Program {
                 System.out.println("Preço:");
                 double preco = sc.nextDouble();
 
-                if (tipo == 'n') {
+                if (tipo == 'c') {
                     lista.add(new Product(nome, preco));
 
                 } else if (tipo == 'u') {

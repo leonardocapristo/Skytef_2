@@ -24,7 +24,7 @@ public class UsedProduct extends Product {
 
 	@Override
 	public String priceTag () {
-		return getName()+ " " + getPrice() + "(Data de compra:  " + this.date + ")";
+		return getName() + getPrice() + "(Data de compra:  " + this.date + ")";
 	}
 	
 	

@@ -21,7 +21,7 @@ public class Program {
             Integer numberProducts = sc.nextInt();
 
             for (int i = 1; i <= numberProducts; i++) {
-                System.out.println("novo, usado ou importado (n/u/i)? ");
+                System.out.println("novo, usado ou importado (c/u/i)? ");
 
                 char tipo = sc.next().charAt(0);
 
